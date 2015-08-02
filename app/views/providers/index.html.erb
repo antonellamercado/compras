@@ -1,0 +1,11 @@
+<h1>Providers#index</h1>
+
+<% @providers.each do |p| %>
+<%=p.name %>
+
+<%=p.address %>
+<br>
+ <%= link_to "Agregar librro", new_provider_book_path([@provider, :book])%>
+<% end -%>
+<hr>
+ <%= link_to "Proveedor", new_provider_path %>

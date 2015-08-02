@@ -1,0 +1,17 @@
+<h1>Nuevo Libro</h1>
+<%= form_for ([@provider,@book]) do |p| %>
+
+ <%= p.label      :name %>
+  <br>
+ <%= p.text_field :name %>
+  <br>
+  <%= p.label     :price %>
+  <br>
+  <%= p.text_area :price %>
+  <br>
+  <%= p.label     :stock%>
+  <br>
+  <%= p.text_area :stock %>
+  <%= p.submit %>
+  
+  <% end -%>

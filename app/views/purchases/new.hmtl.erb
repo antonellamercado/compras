@@ -1,0 +1,6 @@
+<h5>Seleccione Proveedor</h5>
+ <%= collection_select(:purchase, :provider_id, Provider.all, :id, :name, prompt: true) %>
+  <h5>Seleccione Libro</h5>
+ <%= collection_select(:purchase, :book_id, Book.all, :id, :name, prompt: true) %>
+ <h5>Cantidad</h5>
+ <%= collection_select(:purchase, :book_id, Book.all, :id, :stock, prompt: true) %>

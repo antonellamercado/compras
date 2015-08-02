@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  purchase_id: 
+  units: 1
+  subtotal: 1.5
+
+two:
+  purchase_id: 
+  units: 1
+  subtotal: 1.5
